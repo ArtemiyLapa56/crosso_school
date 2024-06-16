@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>дополнительные плюшки</title>
+</head>
+<body>
+  <h1>Введите пароль для доступа:</h1>
+  <input type="password" id="password" placeholder="Пароль">
+  <button onclick="checkPassword()">вести пароль</button>
+
+  <p id="message"></p>
+
+  <script>
+    function checkPassword() {
+      const password = document.getElementById('password').value;
+      if(password === 'C2dima0') {
+        window.location.href = 'protected.html';
+      } else {
+        document.getElementById('message').innerText = 'Неверный пароль. Попробуйте снова.';
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    height: 50px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #072f50;
+}
+
+.divider {
+    height: 30px;
+    
+    background-color: #1b1919;
+}
+
+a {
+    color: #262323;
+    text-decoration: none;
+}
+  
+  a:hover {
+    color: rgb(62, 58, 58);
+    
+  }
+
+  a {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+
+  
+  figure  {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+ 
